@@ -1,103 +1,106 @@
-.header{
+.navbar{
     width:100%;
     height:60px;
     background-color:#333333;
     display:flex;
     justify-content:space-between;
 }
-.header-dysentlogo{
+.navbar-dysentlogo{
     width:fit-content;
     height:60px;
     display:flex;
 }
-.header-dysentlogo img{
+.navbar-dysentlogo img{
     width:75px;
     padding:5px;
     align-self:center;
 }
-.header-nav{
+.navbar-nav{
     width:fit-content;
     height:100%;
 }
-.header-nav ul{
+.navbar-nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
     display:inline;
 }
-.header-nav ul li{
+.navbar-nav ul li{
     display:inline-block;
 }
-.header-nav ul li a{
+.navbar-nav ul li a{
     color:#ffffff;
     text-decoration:none;
     font-size:20px;
     padding:0 10px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     line-height:60px;
     display:inline-block;
 }
-.header-nav a:hover{
-    background-color:#111111;
+.navbar-nav a:hover{
+    background-color:#222222;
 }
-.header-social{
+.navbar-social{
     width:fit-content;
     height:60px;
     display:flex;
 }
-.header-social-buymeacoffee img{
+.navbar-social-buymeacoffee img{
     width:235px;
     padding:5px;
     align-self:center;
     display:flex;
 }
-.header-social-discord img{
+.navbar-social-buymeacoffee img:hover{
+    background-color:#222222;
+}
+.navbar-social-discord img{
     width:270px;
     padding:5px;
     align-self:center;
     display:flex;
 }
+.navbar-social-discord img:hover{
+    background-color:#222222;
+}
 .body-home{
-    background-color:#000000;
-    background-image: url(https://github.com/DysfunctionalEntertainment/DysfunctionalAssets/blob/main/Images/DysfunctionalEntertainment/DysfunctionalEntertainment2.png?raw=true);
+    background-color:#222222;
+    background-image:url(https://github.com/DysfunctionalEntertainment/DysfunctionalAssets/blob/main/Images/DysfunctionalEntertainment/DysfunctionalEntertainment2.png?raw=true);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
-    margin:0 0px;
+    margin:0px;
+}
+.content-home{
+    background-color:rgb(0, 0, 0, 75%);
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    margin:5px;
 }
 .content-home h1{
     color:#ffffff;
-    background-color:rgb(0, 0, 0, 75%);
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size:70px;
-    padding:10px 0px;
-    margin:0px 15% 0px 15%;
+    font-family:"Lucida Console","Courier New",monospace;
+    font-size:50px;
 }
 .content-home p{
     color:#ffffff;
-    background-color:rgb(0, 0, 0, 75%);
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:17px;
-    margin:0px 15% 0px 15%;
-    position:absolute;
-    top:159px;
-    bottom:0px;
+    padding:5px;
 }
 .body-projects{
-    background-color:#000000;
-    background-image: url(https://github.com/DysfunctionalEntertainment/DysfunctionalAssets/blob/main/Images/DysfunctionalEntertainment/DysfunctionalEntertainment2.png?raw=true);
+    background-color:#222222;
+    background-image:url(https://github.com/DysfunctionalEntertainment/DysfunctionalAssets/blob/main/Images/DysfunctionalEntertainment/DysfunctionalEntertainment2.png?raw=true);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
     margin:0 0px;
-}
-.content-projects img{
-    width:445px;
-    padding:5px;
 }
 .content-projects{
     background-color:rgb(0, 0, 0, 75%);
@@ -105,27 +108,33 @@
     align-items:center;
     justify-content: center;
     display: flex;
+    margin:5px;
 }
 .content-projects h1{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:50px;
 }
 .content-projects p{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:17px;
+    padding:5px;
+}
+.content-projects img{
+    width:445px;
+    padding:5px;
 }
 .body-hexangle{
-    background-color:#00000;
+    background-color:#666666;
     background-image: url(https://github.com/DysfunctionalEntertainment/DysfunctionalAssets/blob/main/Images/Hexangle/InvertedPyramid.png?raw=true);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
-    margin:0 0px;
+    margin:0px;
 }
 .content-hexangle{
     background-color:rgb(0, 0, 0, 75%);
@@ -133,32 +142,58 @@
     align-items:center;
     justify-content: center;
     display: flex;
-}
-.content-hexangle img{
-    width:445px;
-    padding:5px;
+    margin:5px;
 }
 .content-hexangle h1{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:50px;
 }
 .content-hexangle p{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:17px;
     margin:5px 5px;
+    padding:5px;
+}
+.content-hexangle img{
+    width:445px;
+    padding:5px;
+}
+.youtube-hexangle{
+    width:100%;
+    background-color:rgb(0, 0, 0, 75%);
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    margin:5px;
+}
+.video-wrapper{
+    position:relative;
+    height:540px;
+    width:960px;
+    padding:5px;
+}
+.video-wrapper iframe{
+    position:center;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    bottom:0px;
+    height:100%;
+    width:100%;
 }
 .body-calcium{
-    background-color:#00000;
+    background-color:#000000;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Die_chemischen_elemente_ca.JPG);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
-    margin:0 0px;
+    margin:0px;
 }
 .content-calcium{
     background-color:rgb(0, 0, 0, 75%);
@@ -166,32 +201,33 @@
     align-items:center;
     justify-content: center;
     display: flex;
-}
-.content-calcium img{
-    width:445px;
-    padding:5px;
+    margin:5px;
 }
 .content-calcium h1{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:50px;
 }
 .content-calcium p{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:17px;
-    margin:5px 5px;
+    padding:5px;
+}
+.content-calcium img{
+    width:445px;
+    padding:5px;
 }
 .body-crusader{
-    background-color:#00000;
+    background-color:#000000;
     background-image: url(https://media3.giphy.com/media/3o72FhIuVWddxQHftS/giphy.gif);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
-    margin:0 0px;
+    margin:0px;
 }
 .content-crusader{
     background-color:rgb(0, 0, 0, 75%);
@@ -199,21 +235,22 @@
     align-items:center;
     justify-content: center;
     display: flex;
-}
-.content-crusader img{
-    width:445px;
-    padding:5px;
+    margin:5px;
 }
 .content-crusader h1{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:50px;
 }
 .content-crusader p{
     color:#ffffff;
     text-align:center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family:"Lucida Console","Courier New",monospace;
     font-size:17px;
-    margin:5px 5px;
+    padding:5px;
+}
+.content-crusader img{
+    width:445px;
+    padding:5px;
 }
