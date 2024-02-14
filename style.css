@@ -5,12 +5,12 @@
     display:flex;
     justify-content:space-between;
 }
-.navbar-dysentlogo{
+.navbar-box{
     width:fit-content;
     height:60px;
     display:flex;
 }
-.navbar-dysentlogo img{
+.navbar-box img{
     width:75px;
     padding:5px;
     align-self:center;
@@ -33,7 +33,7 @@
     text-decoration:none;
     font-size:20px;
     padding:0 10px;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     line-height:60px;
     display:inline-block;
 }
@@ -83,13 +83,13 @@
 .content-home h1{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:50px;
 }
 .content-home p{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:17px;
     padding:5px;
 }
@@ -113,13 +113,13 @@
 .content-projects h1{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:50px;
 }
 .content-projects p{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:17px;
     padding:5px;
 }
@@ -147,13 +147,13 @@
 .content-hexangle h1{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:50px;
 }
 .content-hexangle p{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:17px;
     margin:5px 5px;
     padding:5px;
@@ -206,13 +206,13 @@
 .content-calcium h1{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:50px;
 }
 .content-calcium p{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:17px;
     padding:5px;
 }
@@ -240,13 +240,13 @@
 .content-crusader h1{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:50px;
 }
 .content-crusader p{
     color:#ffffff;
     text-align:center;
-    font-family:"Lucida Console","Courier New",monospace;
+    font-family:"Lucida Console","Courier New","Monospace";
     font-size:17px;
     padding:5px;
 }
